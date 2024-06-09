@@ -1,0 +1,58 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 60px;
+    gap: 0px;
+    background: darkslategray;
+    color: cornsilk;
+    font-family: system-ui;
+}
+
+a{
+    color: rgb(5, 58, 111);
+    text-decoration: none;
+    background-color: antiquewhite;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+label{
+    text-align: left;
+}
+
+a:hover, button:hover{
+    background-color: bisque;
+    font-weight: 700;
+}
+
+div{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* padding: 60px; */
+    gap: 10px;
+    background: darkslategray;
+    color: cornsilk;
+    font-family: system-ui;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+    /* width: 25%; */
+    padding: 16px;
+}
+
+input, button{
+    padding: 10px;
+    margin-bottom: -10px;
+    border-radius: 8px;
+    font-size: 1em;
+    font-weight: 600;
+}
